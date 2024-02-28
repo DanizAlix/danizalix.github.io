@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(28, 24, 68);
+    width: 100%;
+}
+a{
+    text-decoration: deeppink;
+}
+
+img{
+    width: 150px;
+}
+header ul{
+    list-style:none;
+    font-size: larger;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+   
+}
+header ul li{
+    margin: 70px;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(9, 3, 24);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(192, 193, 219);
+    list-style: none;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caja img{
+    border-radius: 19%;
+}
+.caja p{
+    font-size: 16px;
+    
+}
